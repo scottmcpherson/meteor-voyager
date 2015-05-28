@@ -2,7 +2,7 @@
 
 Voyager is a relatively simple synchronous style web scraping package designed for Meteor.
 
-Voyager uses Meteor's http package to makes requests, request's jar for maintaining logged in states, and cheerio for returning jQuery like objects.
+Voyager uses Meteor's http package to makes requests, request's jar for maintaining logged in states, and cheerio for exposing jQuery like selectors on returned web pages.
 
 Note that this does not use a headless browser, so if you need to interact with the web page, something like casperjs or spookyjs might be better suited for that.
 
